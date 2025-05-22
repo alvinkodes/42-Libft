@@ -100,11 +100,3 @@ char	**ft_split(char const *s, char c)
 	arr[i] = NULL;
 	return (arr);
 }
-/*
-int	main(void)
-{
-	char **arr = ft_split("Hello world!", ' ');
-	ft_free_all(arr);
-	return (0);
-}
-*/

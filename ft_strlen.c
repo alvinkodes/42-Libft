@@ -20,14 +20,3 @@ size_t	ft_strlen(const char *s)
 		len++;
 	return (len);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("Hello: %zu\n", ft_strlen("Hello"));
-	printf("Empty string: %zu\n", ft_strlen(""));
-	printf("Space: %zu\n", ft_strlen(" "));
-	return (0);
-}
-*/

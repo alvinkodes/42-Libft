@@ -13,15 +13,3 @@ int	ft_isprint(int c)
 {
 	return (c >= 32 && c <= 126);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("SPACE: %d\n", ft_isprint(' '));
-	printf("\\n: %d\n", ft_isprint('\n'));
-	printf("a: %d\n", ft_isprint('a'));
-	printf("\\0: %d\n", ft_isprint('\0'));
-	printf("127: %d\n", ft_isprint(127));
-	return (0);
-}
-*/

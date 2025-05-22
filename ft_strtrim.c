@@ -49,14 +49,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	mem[i] = '\0';
 	return (mem);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%s\n", ft_strtrim("bb42 KLbb", "ab"));
-	printf("%s\n", ft_strtrim("abab42 KLabab", ""));
-	printf("%s\n", ft_strtrim("", "ab"));
-	return (0);
-}
-*/
